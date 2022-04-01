@@ -43,39 +43,3 @@ class WordSplit:
             ctx.counter += 1
 
 wordsplit = WordSplit("Pseudopseudohypoparathyroidism", "rath", "popa", "pseuodo", "popara", "m", "m", "m", "pop", "popa")
-
-
-'''
-def wordsplit(first, *args):
-    uzunluk = None
-    sayac = 0
-    kelimeler = list()
-
-    for i in args:
-        uzunluk = len(i)
-        for z in first:
-            for u in i:
-                if sayac == uzunluk:
-                    sayac = 0
-                    kelimeler.append(i)
-                elif z == u:
-                    sayac += 1
-                    continue
-    sayac = 0
-    for r in kelimeler:
-        for z in kelimeler:
-            if r == z:
-                sayac += 1
-            else:
-                continue
-        sayac -= 1
-        if not sayac == 0:
-            for i in range(sayac):
-                kelimeler.remove(r)
-            sayac = 0    
-
-    sayac = 1        
-    print(first, "kelimesinde ayriyeten şu kelimeler bulunmaktadır: ")
-    for a in kelimeler:
-        print("{}. kelimemiz {}." .format(sayac, a))
-        sayac += 1'''
