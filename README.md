@@ -1,4 +1,4 @@
-It is totally OOP-based without using the built-in method of any data type.It's just pure algorithm, in addition to it's optimized to eliminate clone words. The reason I created this was to challenge myself under the roof of OOP.
+It is totally OOP-based without using the built-in method of any data type.It's just pure algorithm, in addition to it is optimized to eliminate clone words. The reason I created this was to challenge myself under the roof of OOP.
 
 Notes:
 
